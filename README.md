@@ -1,0 +1,1 @@
+The "ANYWHERE: Travel Planner & Tourism e-Ticket Booking System" simplifies travel planning with a user-friendly platform for easy ticket booking and secure transactions. It also enables tourism authorities to register and manage destinations, generating eco-friendly e-tickets seamlessly, enhancing convenience for both tourists and site managers.
