@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#rightBox{
+    position: fixed;
+    padding-left: 20px;
+    width: 24%;
+    right: 8%;
+    top: 220px;
+    /* float: right; */
+}
+#cart-items h1{
+    margin: 16px;
+}
+#cart-items h2{
+    margin: 16px;
+    text-align: left;
+}
+#total-price{
+    font-weight: 600;
+    font-size: 22px;
+    color: orangered;
+}
+#refresh >img{
+    filter: invert();
+    text-align: center;
+}

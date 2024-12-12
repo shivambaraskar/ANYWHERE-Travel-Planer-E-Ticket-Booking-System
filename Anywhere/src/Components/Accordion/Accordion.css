@@ -1,0 +1,96 @@
+#accordion{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    transition: all 0.8s ease-in-out;
+}
+#main-image {
+    margin: 20px 0px;
+    height: 80vh;
+    width: 100vw;
+    filter: contrast(130%);
+    transition: all 0.8s ease-in-out;
+}
+#toggle-left{
+    height: 50px;
+    width: 32px;
+    z-index: 20;
+    filter:invert(80%);
+    transform: translateX(40px);
+    cursor: pointer;
+}
+#toggle-right{
+    height: 50px;
+    width: 32px;
+    z-index: 20;
+    filter:invert(80%);
+    transform: translateX(-40px);
+    cursor: pointer;
+}
+#upperdiv{
+    position: absolute;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 20px 0px;
+    height: 80vh;
+    width: calc(100% - 64px);
+}
+#upperdiv h1 pre{
+    font-size: 110px;
+    font-family: 'Dancing Script', cursive;
+    color: #ff3300;
+}
+#upperdiv h2 pre{
+    font-size: 50px;
+    margin-top: -20px;
+    margin-bottom: 20px;
+    letter-spacing: 3px;
+    font-family: 'Dancing Script', cursive;
+    color: rgb(255, 255, 255);
+}
+#forsearch{
+    display: flex;
+    margin-bottom: 10vh;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+#forsearch input{
+    height: 8vh;
+    width: 46vw;
+    padding-left: 20px;
+    padding-right: 20px;
+    outline: none;
+    border: none;
+    background: #eeeeee;
+    border-radius: 50px;
+    transform: translateX(10%);
+    box-sizing: border-box;
+}
+
+#search-btn{
+    height: 8vh;
+    width: 10vw;
+    color: white;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: large;
+    font-weight: 500;
+    transform: translateX(-30%);
+    background-color: #040404;
+    border: 1px solid #040404;
+    cursor: pointer;
+    border-radius: 40px;
+    transition: all 0.2s ease-in-out;
+}
+
+#search-btn:hover{
+    background-color: #f41414;
+    border: 1px solid #f41414;
+}

@@ -1,0 +1,271 @@
+{
+    "topvisited" : [
+        {
+            "id": "tajmahal",
+            "name": "Taj Mahal",
+            "location": "Agra, India",
+            "rating": "4.7",
+            "price": "3400",
+            "image": "taj_mahal.jpg",
+            "description": "The Taj Mahal is a white marble mausoleum in Agra, India. It was commissioned by the Mughal emperor Shah Jahan in 1632 to house the tomb of his wife, Mumtaz Mahal. The Taj Mahal took 22 years to build and was completed in 1653."
+        },
+        {
+            "id": "mount-everest",
+            "name": "Mount Everest",
+            "location": "Nepal",
+            "rating": "4.9",
+            "price": "4200",
+            "image": "mount_everest.jpg",
+            "description": "Mount Everest is the Earth's highest point above sea level. It is the ultimate destination for mountaineers and adventurers."
+        },
+        {
+            "id": "eiffel-tower",
+            "name": "Eiffel Tower",
+            "location": "Paris, France",
+            "rating": "4.5",
+            "price": "1600",
+            "image": "eiffel_tower.jpg",
+            "description": "The Eiffel Tower is a wrought-iron lattice tower in Paris, France. It is one of the most iconic landmarks in the world and a symbol of France. Built in 1887-1889 as the entrance arch to the 1889 World's Fair, it stands at 324 meters (1,063 feet) and was the tallest man-made structure in the world until the completion of the Chrysler Building in New York City in 1930."
+        },
+        {
+            "id": "machu-pichhu",
+            "name": "Machu Picchu",
+            "location": "Cusco, Peru",
+            "rating": "4.8",
+            "price": "2900",
+            "image": "machu_picchu.jpg",
+            "description": "Machu Picchu is an ancient Inca citadel located in the Andes Mountains of Peru. It is renowned for its archaeological significance and breathtaking panoramic views. Machu Picchu is a UNESCO World Heritage Site."
+        },
+        {
+            "id": "petra",
+            "name": "Petra",
+            "location": "Wadi Musa, Jordan",
+            "rating": "4.8",
+            "price": "3100",
+            "image": "petra.jpg",
+            "description": "Petra is an ancient city in Jordan known for its rock-cut architecture and water conduit system. It is famous for the archaeological and historical significance."
+        },
+        {
+            "id": "great-wall-of-china",
+            "name": "Great Wall of China",
+            "location": "China",
+            "rating": "4.6",
+            "price": "2000",
+            "image": "great_wall.jpg",
+            "description": "The Great Wall of China is a series of fortifications made of stone, brick, tamped earth, wood, and other materials, generally built along an east-to-west line across the historical northern borders of China to protect against invasions."
+        },
+        {
+            "id": "statue-of-liberty",
+            "name": "Statue of Liberty",
+            "location": "New York, USA",
+            "rating": "4.6",
+            "price": "1800",
+            "image": "statue_of_liberty.jpg",
+            "description": "The Statue of Liberty is a colossal neoclassical sculpture on Liberty Island in New York Harbor within New York City, in the United States. It symbolizes freedom and democracy."
+        },
+        {
+            "id": "santorini",
+            "name": "Santorini",
+            "location": "Santorini, Greece",
+            "rating": "4.9",
+            "price": "3800",
+            "image": "santorini.jpeg",
+            "description": "Santorini is a stunning island in the southern Aegean Sea, known for its beautiful sunsets, white-washed buildings, and crystal-clear waters. It's a popular destination for romantic getaways."
+        },
+        {
+            "id": "angkor-wat",
+            "name": "Angkor Wat",
+            "location": "Siem Reap, Cambodia",
+            "rating": "4.8",
+            "price": "2500",
+            "image": "angkor_wat.jpeg",
+            "description": "Angkor Wat is a temple complex in Cambodia and the largest religious monument in the world. It was originally constructed as a Hindu temple dedicated to the god Vishnu but later transformed into a Buddhist temple."
+        },
+        {
+            "id": "victoria-falls",
+            "name": "Victoria Falls",
+            "location": "Zimbabwe & Zambia",
+            "rating": "4.9",
+            "price": "2800",
+            "image": "victoria_falls.jpeg",
+            "description": "Victoria Falls is one of the most famous waterfalls in the world. It is located on the border between Zimbabwe and Zambia. The falls are known for their stunning beauty and thundering cascades."
+        },
+        {
+            "id": "yellowstone-park",
+            "name": "Yellowstone National Park",
+            "location": "Wyoming, USA",
+            "rating": "4.7",
+            "price": "1900",
+            "image": "yellowstone.jpeg",
+            "description": "Yellowstone National Park is famous for its geothermal features, including geysers and hot springs, as well as its diverse wildlife."
+        },
+        {
+            "id": "sagrada",
+            "name": "Sagrada Família",
+            "location": "Barcelona, Spain",
+            "rating": "4.6",
+            "price": "2200",
+            "image": "sagrada_familia.jpeg",
+            "description": "The Sagrada Família is a basilica designed by the renowned architect Antoni Gaudí. It is an iconic landmark in Barcelona and is known for its unique and intricate architectural design."
+        },
+        {
+            "id": "bora-bora",
+            "name": "Bora Bora",
+            "location": "French Polynesia",
+            "rating": "4.9",
+            "price": "4500",
+            "image": "bora_bora.jpg",
+            "description": "Bora Bora is a tropical paradise in the South Pacific, known for its crystal-clear waters and overwater bungalows. It's a popular destination for honeymooners and beach enthusiasts."
+        }
+    ],
+    "topexperiences": [
+        {
+            "id": "eiffel-tower",
+            "name": "Eiffel Tower",
+            "location": "Paris, France",
+            "rating": "4.5",
+            "price": "1600",
+            "image": "eiffel_tower.jpg",
+            "description": "The Eiffel Tower is a wrought-iron lattice tower in Paris, France. It is one of the most iconic landmarks in the world and a symbol of France. Built in 1887-1889 as the entrance arch to the 1889 World's Fair, it stands at 324 meters (1,063 feet) and was the tallest man-made structure in the world until the completion of the Chrysler Building in New York City in 1930."
+        },
+        {
+            "id": "santorini",
+            "name": "Santorini",
+            "location": "Santorini, Greece",
+            "rating": "4.9",
+            "price": "3800",
+            "image": "santorini.jpeg",
+            "description": "Santorini is a stunning island in the southern Aegean Sea, known for its beautiful sunsets, white-washed buildings, and crystal-clear waters. It's a popular destination for romantic getaways."
+        },
+        {
+            "id": "angkor-wat",
+            "name": "Angkor Wat",
+            "location": "Siem Reap, Cambodia",
+            "rating": "4.8",
+            "price": "2500",
+            "image": "angkor_wat.jpeg",
+            "description": "Angkor Wat is a temple complex in Cambodia and the largest religious monument in the world. It was originally constructed as a Hindu temple dedicated to the god Vishnu but later transformed into a Buddhist temple."
+        },
+        {
+            "id": "victoria-falls",
+            "name": "Victoria Falls",
+            "location": "Zimbabwe & Zambia",
+            "rating": "4.9",
+            "price": "2800",
+            "image": "victoria_falls.jpeg",
+            "description": "Victoria Falls is one of the most famous waterfalls in the world. It is located on the border between Zimbabwe and Zambia. The falls are known for their stunning beauty and thundering cascades."
+        },
+        {
+            "id": "yellowstone-park",
+            "name": "Yellowstone National Park",
+            "location": "Wyoming, USA",
+            "rating": "4.7",
+            "price": "1900",
+            "image": "yellowstone.jpeg",
+            "description": "Yellowstone National Park is famous for its geothermal features, including geysers and hot springs, as well as its diverse wildlife."
+        },
+        {
+            "id": "sagrada",
+            "name": "Sagrada Família",
+            "location": "Barcelona, Spain",
+            "rating": "4.6",
+            "price": "2200",
+            "image": "sagrada_familia.jpeg",
+            "description": "The Sagrada Família is a basilica designed by the renowned architect Antoni Gaudí. It is an iconic landmark in Barcelona and is known for its unique and intricate architectural design."
+        },
+        {
+            "id": "bora-bora",
+            "name": "Bora Bora",
+            "location": "French Polynesia",
+            "rating": "4.9",
+            "price": "4500",
+            "image": "bora_bora.jpg",
+            "description": "Bora Bora is a tropical paradise in the South Pacific, known for its crystal-clear waters and overwater bungalows. It's a popular destination for honeymooners and beach enthusiasts."
+        }
+    ],
+    "exploremore":[
+        {
+            "id": "loc-15",
+            "name": "Mesa Verde National Park",
+            "location": "Colorado, USA",
+            "rating": "4.7",
+            "price": "1500",
+            "image": "mesa_verde.jpg",
+            "description": "Mesa Verde National Park is located in Colorado and is famous for its well-preserved Ancestral Puebloan cliff dwellings. It offers a glimpse into ancient Native American history."
+        },
+        {
+            "id": "loc-16",
+            "name": "The Grand Canyon",
+            "location": "Arizona, USA",
+            "rating": "4.8",
+            "price": "1900",
+            "image": "grand_canyon.jpg",
+            "description": "The Grand Canyon is a massive canyon carved by the Colorado River in Arizona. It is known for its immense size and intricate and colorful landscape."
+        },
+        {
+            "id": "loc-17",
+            "name": "The Great Barrier Reef",
+            "location": "Queensland, Australia",
+            "rating": "4.7",
+            "price": "3600",
+            "image": "great_barrier_reef.jpg",
+            "description": "The Great Barrier Reef is the world's largest coral reef system, located in the Coral Sea off the coast of Queensland, Australia. It's renowned for its stunning marine biodiversity."
+        },
+        {
+            "id": "loc-18",
+            "name": "Meteora",
+            "location": "Thessaly, Greece",
+            "rating": "4.7",
+            "price": "2500",
+            "image": "meteora.jpg",
+            "description": "Meteora is a rock formation in central Greece, known for its monasteries perched on top of towering rock pillars. It is a UNESCO World Heritage Site."
+        },
+        {
+            "id": "loc-19",
+            "name": "Marrakech",
+            "location": "Morocco",
+            "rating": "4.6",
+            "price": "2800",
+            "image": "marrakech.jpg",
+            "description": "Marrakech is a vibrant city in Morocco, famous for its medina, palaces, gardens, and bustling souks. It offers a rich cultural experience."
+        },
+        {
+            "id": "loc-20",
+            "name": "Mýkonos",
+            "location": "Mykonos, Greece",
+            "rating": "4.7",
+            "price": "3500",
+            "image": "mykonos.jpg",
+            "description": "Mýkonos is a Greek island known for its beautiful beaches, vibrant nightlife, and traditional Cycladic architecture."
+        }
+    ],
+    "extra":[
+        {
+            "id": "loc-21",
+            "name": "Banff National Park",
+            "location": "Alberta, Canada",
+            "rating": "4.8",
+            "price": "2200",
+            "image": "banff_national_park.jpg",
+            "description": "Banff National Park is located in the Canadian Rockies and offers stunning mountain scenery, crystal-clear lakes, and abundant wildlife."
+        },
+        {
+            "id": "loc-22",
+            "name": "Budapest",
+            "location": "Hungary",
+            "rating": "4.5",
+            "price": "2000",
+            "image": "budapest.jpg",
+            "description": "Budapest is the capital of Hungary, known for its historic architecture, thermal baths, and the Danube River that divides the city."
+        },
+        {
+            "id": "loc-23",
+            "name": "The Alhambra",
+            "location": "Granada, Spain",
+            "rating": "4.8",
+            "price": "2400",
+            "image": "alhambra.jpg",
+            "description": "The Alhambra is a palace and fortress complex in Granada, Spain. It is a masterpiece of Islamic architecture and a UNESCO World Heritage Site."
+        }
+    ]
+}

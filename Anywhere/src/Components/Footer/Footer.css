@@ -1,0 +1,74 @@
+#footer{
+    height: 200px;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background: orange;
+}
+#footer h2{
+    top: 0px;
+    left: 5px;
+    padding: 20px;
+    font-size: 45px;
+    font-family: 'Dancing Script', cursive;
+    position: absolute;
+}
+#contacts{
+    top: 140px;
+    width: 24vw;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.foot-contact{
+    width: 30px;
+    height: 30px;
+    display: block;
+}
+.foot-contact img{
+    width: 30px;
+    height: 30px;
+    margin : 0px 10px;
+}
+.foot-contact img:hover{
+    transform: scale(1.2);
+    transition-duration: .4s;
+}
+#low-row{
+    top: 30px;
+    right: 30px;
+    min-width: 70vw;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.lower-row ul{
+    list-style: none;
+    line-height: 1.8;
+    font-size: 14px;
+}
+.lower-row ul > li:first-child{
+    margin-bottom: 10px;
+    font-size: large;
+    font-weight: 600;
+}
+#lower{
+    top: 174px;
+    right: 20px;
+    min-width: 26vw;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#lower>a, #lower>p{
+    color: black;
+    font-size: smaller;
+    font-weight: 400;
+    text-decoration: none;
+}

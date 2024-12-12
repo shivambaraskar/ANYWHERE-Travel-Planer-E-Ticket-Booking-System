@@ -1,0 +1,136 @@
+.PlaceDesc{
+    display: flex;
+    height: auto;
+    width: 100%;
+    align-items: center;
+}
+.desc-heading{
+    display: flex;
+    height: 100px;
+    width: 100%;
+    padding: 20px;
+    color: black;
+    font-size: medium;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+#sub-info{
+    height:30px;
+    display: flex;
+    flex-direction: row;
+    /* color: white; */
+    font-size: small;
+    align-items: center;
+}
+#sub-info img{
+    height: 16px;
+    margin: 0px 6px;
+}
+.place-images{
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    overflow: hidden;
+    justify-content: space-evenly;
+}
+#left-images{
+    width: 20%;
+    height: 100%;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+#left-images::-webkit-scrollbar{
+    scroll-behavior: smooth;
+}
+#left-images img{
+    width: 90%;
+    margin: 10px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+#center-image{
+    width: 80%;
+    height: 94%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+}
+#center-image img{
+    width: 84%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+#center-image button{
+    right: 12%;
+    bottom: 5%;
+    height: 30px;
+    width: 100px;
+    outline: none;
+    border: none;
+    color: white;
+    background-color: orange;
+    border-radius: 4px;
+    position: absolute;
+    cursor: pointer;
+}
+.place-desc{
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.left-desc{
+    width: 75%;
+    border-radius: 10px;
+    color: black;
+    background-color: white;
+    font-size: 15px;
+    padding: 20px;
+}
+.right-box{
+    width: 20%;
+    display: flex;
+    padding: 15px;
+    font-size: 15px;
+    line-height: 1.8;
+    background-color: white;
+    border-radius: 10px;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.right-box img{
+    height: 22px;
+}
+.right-box button{
+    height: 35px;
+    width: auto;
+    margin: 6px;
+    outline: none;
+    border: none;
+    color: white;
+    background-color: orange;
+    border-radius: 4px;
+    cursor: pointer;
+}
+#ticket-price{
+    font-weight: 600;
+    font-size: 22px;
+    color: orangered;
+}
+#gift-link{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+}

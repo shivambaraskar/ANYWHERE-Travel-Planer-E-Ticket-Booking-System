@@ -1,0 +1,46 @@
+#destination-row{
+    width: 100%;
+    display: flex;
+    position: relative;
+    align-items: center;
+    overflow-x: hidden;
+    flex-direction: column;
+}
+#destination-row > hr{
+    width: 60vw;
+    height: 2px;
+    border: none;
+    outline: none;
+    margin: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    background-color: black;
+}
+
+#row{
+    width: 100%;
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    flex-direction: row;
+}
+#row::-webkit-scrollbar{
+    scroll-behavior: smooth;
+}
+.sidewise{
+    top: 50%;
+    width: 40px;
+    z-index: 30;
+    position: absolute;
+    padding: 2px 0px;
+    background-color: #bbbbbbc0;
+    border-radius: 50%;
+}
+#left-btn{
+    left: 10px;
+    padding-right: 4px;
+}
+#right-btn{
+    right: 10px;
+    padding-left: 4px;
+}

@@ -1,0 +1,82 @@
+.place{
+    margin: 20px;
+    min-width:250px;
+    padding: 0;
+    height: 350px;
+    line-height: 2;
+    display: block;
+    overflow: hidden;
+    background-color: #eeeeee;
+    border-radius: 10px;
+    transition: all 0.4s ease-in-out;
+}
+.place:hover{
+    transform: scale(1.02);
+}
+#imgdiv{
+    height: 50%;
+    width: 100%;
+    overflow: hidden; 
+    box-sizing: border-box;
+}
+#imgdiv img{
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+#imgdiv img:hover{
+    filter: blur(20%);
+    transform: scale(1.2);
+    transition: all 0.8s ease-in-out;
+}
+.lower-cont{
+    display: flex;
+    padding: 0px 10px;
+    font-size: 14px;
+    align-items: flex-start;
+    flex-direction: column;
+}
+#ratingdiv{
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: row;
+    align-items: center;
+    background-color: #eeeeee;
+    transition: all 0.8s linear;
+
+}
+#ratingdiv > img{
+    width: 18px;
+    margin-bottom: 2px;
+    margin-right: 2px;
+    transition: all 1s ease-in-out 0.4s;
+}
+.lower-cont > button{
+    height: 30px;
+    width: 90px;
+    outline: none;
+    border: none;
+    color: white;
+    align-self: center;
+    cursor: pointer;
+    background-color: #f41414;
+    transition: all 0.2s linear;
+}
+#loc{
+    margin-top: 4px;
+    padding: 0px 10px;
+    display: inline;
+    font-size: 12px;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.801);
+}
+#price{
+    font-size: large;
+    font-weight: 600;
+    color: #ff0000;
+}
+.lower-cont > button:hover{
+    width: 100px;
+    background-color: red;
+}

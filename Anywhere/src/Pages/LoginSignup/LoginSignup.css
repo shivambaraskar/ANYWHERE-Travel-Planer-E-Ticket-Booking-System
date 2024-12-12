@@ -1,0 +1,132 @@
+#main-box{
+    margin-bottom: 30px;
+    height: 80vh;
+    width: 100%;
+}
+#login-form{
+    margin: 0;
+    padding: 0;
+    left: 50%;
+    top: 56%;
+    height: 75vh;
+    width: 70vw;
+    display: flex;
+    position: absolute;
+    flex-direction: row;
+    align-items: center;
+    transform: translate(-50%, -50%);
+}
+
+#left{
+    height: 75vh;
+    width: 35vw;
+    display: flex;
+
+}
+#left img{
+    height: 75vh;
+    width: 35vw;
+    object-fit: cover;
+}
+#upperleft{
+    height: 75vh;
+    width: 17.5vw;
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgba(255, 217, 0, 0.306);
+    transition: all 500ms ease-in-out;
+
+}
+#upperleft h1{
+    margin-bottom: 16px;
+    font-size: 2.3vw;
+    text-decoration: underline;
+    text-decoration-color: black;
+}
+#upperleft h2{
+    font-size: 1.3vw;
+    color: rgb(20, 20, 20);
+}
+#upperleft:hover{
+    width: 35vw;
+}
+#right{
+    height: 75vh;
+    width: 35vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: #dddddd;
+}
+#heading{
+    display: flex;
+    margin: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 70%;
+    height: 40px;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 20px;
+    box-sizing: border-box;
+    background-color: #eeeeee;
+}
+.upperbtn{
+    outline: none;
+    border: none;
+    width: 40%;
+    height: 30px;
+    font-size: larger;
+    font-weight: 600;
+    border-radius: 20px;
+    background-color: #eeeeee;
+    transition: all 0.5s linear;
+}
+#form{
+    display: flex;
+    width: 75%;
+    flex-direction: column;
+    margin: auto;
+}
+#form > h1{
+    margin-bottom: 20px;
+    font-size: 40px;
+    font-family: 'kanit', serif;
+}
+#form > p {
+    text-align: start;
+    padding: 2px;
+    font-weight: 500;
+    padding-left: 8px;
+    color: rgb(110, 110, 110);
+}
+#form > input, #form > button{
+    height: 40px;
+    outline: none;
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+    box-sizing: border-box;
+    margin-bottom: 15px;   
+}
+#form > button{
+    width: 60%;
+    padding: 4px;
+    margin: 12px;
+    text-align: center;
+    font-weight: 600;
+    font-size: large;
+    background-color: gold;
+    transform: translateX(25%);
+    transition: all 0,4s linear;
+}
+#placelink{
+    transform: translate(-50px, -10px);
+}
+#form > button:hover{
+    opacity: 80%;
+}

@@ -1,0 +1,34 @@
+[
+    {
+        "name":"Mumbai",
+        "image":"mumbai.jpeg"
+    },
+    {
+        "name":"Prague",
+        "image":"prague.jpeg"
+    },
+    {
+        "name":"London",
+        "image":"london.jpeg"
+    },
+    {
+        "name":"Kolkata",
+        "image":"kolkata.jpeg"
+    },
+    {
+        "name":"Chicago",
+        "image":"chicago.jpeg"
+    },
+    {
+        "name":"Toronto",
+        "image":"toronto.jpeg"
+    },
+    {
+        "name":"Bali",
+        "image":"bali.jpeg"
+    },
+    {
+        "name":"Tokyo",
+        "image":"tokyo.jpeg"
+    }
+]

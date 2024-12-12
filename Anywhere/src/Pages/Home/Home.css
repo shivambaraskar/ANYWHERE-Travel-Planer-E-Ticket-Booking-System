@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#home{
+    height: auto;
+    width: 100%;
+    background-image: linear-gradient(180deg, orange, rgb(255, 255, 78), white);
+}
+#temp{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.row{
+    margin-top: 20px;
+}
